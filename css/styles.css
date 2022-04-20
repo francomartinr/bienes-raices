@@ -1,0 +1,121 @@
+/*-----------ESTILOS AUXILIARES----------------*/
+
+.contenedor-1200px {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*-----------ESTILOS DEL HEADER Y MENU----------------*/
+
+.header {
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+nav a {
+  color: white !important;
+  font-size: 18px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+}
+
+.navbar {
+  margin: 0 20px;
+}
+
+/*-----------ESTILOS DE SECCION I - Mas info----------------*/
+
+.mas-info {
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mas-info h2 {
+  text-align: center;
+}
+
+.bloque-info {
+  margin-top: 20px;
+}
+
+.mas-info .card-img-top {
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  align-items: center;
+  border: none;
+}
+
+.col {
+  text-align: center;
+}
+
+/*-----------ESTILOS DE SECCION II - Casas ----------------*/
+
+.casas {
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.casas h2 {
+  text-align: center;
+}
+
+.bloque-casas {
+  margin-top: 20px;
+}
+
+.casas .card-text {
+  text-align: left;
+}
+
+.precio {
+  display: flex;
+  color: green;
+  font-size: 150%;
+}
+
+.casas .card {
+  align-items: flex-start;
+  border: solid 1px black;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+
+.casas .card img {
+  border-radius: 15px 15px 0 0;
+}
+
+.extras {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banios,
+.garages,
+.dormitorios {
+  display: flex;
+  gap: 10px;
+}
+
+.extras img {
+  max-width: 40px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
